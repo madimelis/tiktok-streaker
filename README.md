@@ -25,8 +25,8 @@ GeckoDriver is downloaded automatically by `webdriver-manager` on the first run.
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/madimelis/tiktok-streaker.git
+cd <tiktok-streaker>
 pip install -r requirements.txt
 ```
 
@@ -37,7 +37,7 @@ All settings are at the top of `tscript.py`:
 | Setting        | Description                                                              |
 |----------------|--------------------------------------------------------------------------|
 | `PROFILE_PATH` | Full path to the Firefox profile that is logged in to TikTok. Do not end the path with a backslash. |
-| `FRIEND_NAME`  | The nickname of your friend exactly as shown in the chat list.           |
+| `FRIEND_NAME`  | The username of your friend exactly as shown in the chat list.           |
 | `MESSAGE`      | The text to send. The default is a single emoji.                         |
 | `HEADLESS`     | `True` runs without a visible window. Set to `False` to watch it work.   |
 | `WAIT_TIMEOUT` | Maximum seconds to wait for each page element (default 30).              |
@@ -111,4 +111,4 @@ This project is for personal and educational use. Automating actions on TikTok m
 
 ## License
 
-Add a license of your choice (for example, MIT) to this repository.
+This project is licensed under the MIT License. See the LICENSE file for details.
